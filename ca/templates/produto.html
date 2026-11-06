@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página do Produto</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .produto-card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            width: 300px;
+            padding: 20px;
+            text-align: center;
+        }
+        .produto-card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+        }
+        .preco {
+            font-size: 1.5rem;
+            color: #27ae60;
+            font-weight: bold;
+            margin: 15px 0;
+        }
+        .btn-comprar {
+            background-color: #e74c3c;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            font-size: 1rem;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+        }
+        .btn-comprar:hover {
+            background-color: #c0392b;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="produto-card">
+        <img src="https://via.placeholder.com/250" alt="Imagem do Produto">
+        <h2>Nome do Produto</h2>
+        <p>Descrição curta e simples explicando as principais características do produto.</p>
+        <div class="preco">R$ 99,90</div>
+        <button class="btn-comprar">Comprar</button>
+    </div>
+
+</body>
+</html>
